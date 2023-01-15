@@ -42,7 +42,6 @@ router.post('/login', (req, res) =>{
             if(match){
                 const jwtToken = jwt.sign({_id: user._id, email: user.email}, JWT_SECRET)
                 user.password = undefined
-                console.log(user)
                 return res.status(200).json({user: user, token: jwtToken})
             }else{
                 return res.status(400).json({error:"Account not found"})

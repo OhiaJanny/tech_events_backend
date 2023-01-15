@@ -34,6 +34,8 @@ router.post('/login', (req, res) =>{
     }
 
     UserModel.findOne({email: email}).then((user)=>{
+        console.log(user)
+        console.log(!user)
         if(!user){
             return res.status(401).json({error: "Invalid credentials"})
         }

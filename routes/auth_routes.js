@@ -12,7 +12,7 @@ router.post('/signup', (req, res) =>{
 
     UserModel.findOne({email: email}).then((user)=>{
         if(user){
-            return res.status(401).json({error: "Email already exists"})
+            return res.status(401).json({error: "Already registered email"})
         }
         bcrypt.hash(password, 10)
         .then(hashedPassword =>{
@@ -34,10 +34,8 @@ router.post('/login', (req, res) =>{
     }
 
     UserModel.findOne({email: email}).then((user)=>{
-        console.log(user)
-        console.log(!user)
         if(!user){
-            return res.status(401).json({error: "Invalid credentials"})
+            return res.status(401).json({error: "Account not found"})
         }
         bcrypt.compare(password, user.password)
         .then(match =>{
@@ -47,7 +45,7 @@ router.post('/login', (req, res) =>{
                 console.log(user)
                 return res.status(200).json({user: user, token: jwtToken})
             }else{
-                return res.status(400).json({error:"Invalid credentials"})
+                return res.status(400).json({error:"Account not found"})
             }
         })
         

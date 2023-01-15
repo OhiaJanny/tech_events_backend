@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(require("./routes/auth_routes"))
 
 app.get('/', (req, res) =>{
-    res.send("Welcome")
+    return res.status(201).json({data: "Welcome"})
 })
 
 

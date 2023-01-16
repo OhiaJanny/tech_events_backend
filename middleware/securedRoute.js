@@ -15,6 +15,7 @@ module.exports = (req, res, next) =>{
         if(error){
             return res.status(401).json({error: "Unauthorized user"})
         }
+        console.log(payload)
         const {_id} = payload;
         UserModel.findById(_id)
         .then((dbUser) => {

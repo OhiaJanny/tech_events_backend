@@ -18,9 +18,7 @@ module.exports = (req, res, next) =>{
         const {_id} = payload;
         UserModel.findById(_id)
         .then((dbUser) => {
-            if(dbUser.password){
-                dbUser.password = undefined
-            }
+            console.log(dbUser)
             req.dbUser = dbUser
             next()
         })

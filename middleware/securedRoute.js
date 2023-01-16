@@ -20,6 +20,7 @@ module.exports = (req, res, next) =>{
         .then((dbUser) => {
             dbUser.password = undefined;
             req.dbUser = dbUser
+            next()
         })
         .catch(error => console.log(error))
     })

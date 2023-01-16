@@ -3,6 +3,7 @@ const app = express()
 const mongoose = require("mongoose")
 const dotenv = require("dotenv")
 const cors = require("cors")
+const securedRoute = require("./middleware/securedRoute")
 const port = 5000;
 dotenv.config();
 app.use(cors())
@@ -17,8 +18,8 @@ app.use(express.urlencoded({extended: true}));
 
 app.use(require("./routes/auth_routes"))
 
-app.get('/', (req, res) =>{
-    return res.status(201).json({data: "Welcome"})
+app.get('/', securedRoute, (req, res) =>{
+    return res.status(201).json({success: "Welcome"})
 })
 
 

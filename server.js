@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(require("./routes/auth_routes"))
 
 app.get('/', securedRoute, (req, res) =>{
-    return res.status(201).json({success: "Welcome"})
+    return res.status(201).json({success: "Welcome", user: req.dbUser})
 })
 
 

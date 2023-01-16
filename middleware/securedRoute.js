@@ -17,7 +17,10 @@ module.exports = (req, res, next) =>{
         }
         const {_id} = payload;
         UserModel.findById(_id)
-        .then(() => next())
+        .then((dbUser) => {
+            dbUser.password = undefined;
+            req.dbUser = dbUser
+        })
         .catch(error => console.log(error))
     })
 }

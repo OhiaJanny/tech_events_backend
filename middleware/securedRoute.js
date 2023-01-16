@@ -15,11 +15,11 @@ module.exports = (req, res, next) =>{
         if(error){
             return res.status(401).json({error: "Unauthorized user"})
         }
-        console.log(payload)
+        console.log("-----1-----", payload)
         const {_id} = payload;
         UserModel.findById(_id)
         .then((dbUser) => {
-            console.log(dbUser)
+            console.log("-----2-----", dbUser)
             req.dbUser = dbUser
             next()
         })

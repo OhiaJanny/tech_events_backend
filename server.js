@@ -4,6 +4,7 @@ const mongoose = require("mongoose")
 const dotenv = require("dotenv")
 const cors = require("cors")
 const securedRoute = require("./middleware/securedRoute")
+const { data } = require('./mockup_data')
 const port = 5000;
 dotenv.config();
 app.use(cors())
@@ -22,5 +23,8 @@ app.get('/', securedRoute, (req, res) =>{
     return res.status(201).json({success: "Welcome", user: req.dbUser})
 })
 
+app.get('/tech-events', (req, res) =>{
+    res.status(200).json({data})
+})
 
 app.listen(port, ()=> console.log(`Server running on port: ${port}`))

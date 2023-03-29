@@ -92,7 +92,7 @@ const data = [
     {
         id:'_16',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679997505/img15_yqytv1.png',
-        title: 'UX Writter',
+        title: 'UX Writer',
         subtitle: '7th May - 10th August 2023'
     },
 ]

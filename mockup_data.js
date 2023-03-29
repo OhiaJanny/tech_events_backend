@@ -20,32 +20,32 @@ const data = [
     {
         id:'_4',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679994933/img1_hffy04.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'Business Analyst',
+        subtitle: '10th May - 20th November'
     },
     {
         id:'_5',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679995187/img5_ewlrym.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'Cyber Security',
+        subtitle: '10th May - 20th November 2023'
     },
     {
         id:'_6',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679995249/img6_za6ma6.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'Backend developer',
+        subtitle: '10th May - 20th Novemeber 2023'
     },
     {
         id:'_7',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679995298/image_6_jebm77.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'Product design',
+        subtitle: '7th May - 10th August 2023'
     },
     {
         id:'_8',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679995347/img8_okmqbu.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'Devops Engineer',
+        subtitle: '3rd April - July 2023'
     },
     {
         id:'_9',

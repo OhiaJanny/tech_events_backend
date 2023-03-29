@@ -50,8 +50,8 @@ const data = [
     {
         id:'_9',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679995423/img10_c6mliq.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'Digital Marketing ',
+        subtitle: '7th June - 18th September 2023'
     },
     {
         id:'_10',

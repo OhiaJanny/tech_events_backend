@@ -68,31 +68,31 @@ const data = [
     {
         id:'_12',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679995983/img12_ztz9ph.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'Content Creator',
+        subtitle: '7th September - 17th December 2023'
     },
     {
         id:'_13',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679996310/img13_wjgr6w.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'SEO Writing',
+        subtitle: '10th August - 15th November 2023'
     },
     {
         id:'_14',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679996562/img14_dccy7k.png',
-        title: 'Social Media Manager',
-        subtitle: '3rd April- July 2023'
+        title: 'Social Mesia Manager',
+        subtitle: '3rd April - July 2023'
     },
     {
         id:'_15',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679996310/img13_wjgr6w.png',
-        title: 'UX Researcher',
+        title: 'Technical Writing',
         subtitle: '7th May - 10th August 2023'
     },
     {
         id:'_16',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679997505/img15_yqytv1.png',
-        title: 'UX Writer',
+        title: 'Wordpress Developer',
         subtitle: '7th May - 10th August 2023'
     },
 ]

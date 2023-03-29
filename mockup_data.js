@@ -56,14 +56,14 @@ const data = [
     {
         id:'_10',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679995461/img11_eoj2ut.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'Frontend Developer',
+        subtitle: '9th May - 15th November 2023'
     },
     {
         id:'_11',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679995461/img11_eoj2ut.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'QA Engineer',
+        subtitle: '15th July - 17th December 2023'
     },
     {
         id:'_12',

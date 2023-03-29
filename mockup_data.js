@@ -80,20 +80,20 @@ const data = [
     {
         id:'_14',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679996562/img14_dccy7k.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'Social Media Manager',
+        subtitle: '3rd April- July 2023'
     },
     {
         id:'_15',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679996310/img13_wjgr6w.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'UX Researcher',
+        subtitle: '7th May - 10th August 2023'
     },
     {
         id:'_16',
         img: 'https://res.cloudinary.com/ddilo13fi/image/upload/v1679997505/img15_yqytv1.png',
-        title: 'Title',
-        subtitle: 'Sub Title'
+        title: 'UX Writter',
+        subtitle: '7th May - 10th August 2023'
     },
 ]
 
